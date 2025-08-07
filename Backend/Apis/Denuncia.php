@@ -1,19 +1,23 @@
 <?php
 
 class Denuncia {
-    public function __construct( 
+    public int $id = 0;
+
+    public function __construct(
         public string $tipo,
         public string $descripcion,
-        public float $lat,
-        public float $lng,
+        public float  $lat,
+        public float  $lng,
         public string $foto,
-        public string $fecha = '',
+        public string $fecha = ''   // ← sin coma final
     ){
-        $this->fecha = $fecha ?: date('c');
+        $this->fecha = $this->fecha ?: date('c');
     }
-    
-    public function toArray(): array {
+
+    public function toArray(): array
+    {
         return [
+            $this->id,
             $this->tipo,
             $this->descripcion,
             $this->lat,

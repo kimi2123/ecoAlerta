@@ -1,12 +1,14 @@
 <?php
-require_once 'Denuncia.php';
-require_once 'CSVRepositorio.php';
+require_once __DIR__. '/Denuncia.php';
+require_once __DIR__. '/CSVRepositorio.php';
 function respuesta(array $array, int $c=200){
     http_response_code($c);
     header('Content-Type: application/json; charset=utf-8');
     echo json_encode($array); exit;
 }
-$body = json_decode(file_get_contents('php://input'), true) ??[];
+$fila = file_get_contents('php://input');
+file_put_contents('php://stderr', "RAW = $fila\n");
+$body = json_decode($fila, true) ;
 
 foreach(['tipo', 'descripcion', 'lat', 'lng', 'foto'] as $campo){
     if(empty($body[$campo])){
@@ -21,7 +23,8 @@ $denuncia = new Denuncia(
     (float)$body['lng'],
     basename($body['foto'])
 );
-$repositorio = new CSVRepositorio('Denuncias.csv');
+$rutaBase = __DIR__ . '/Denuncias.csv';
+$repositorio = new CSVRepositorio($rutaBase);
 $id = $repositorio->guardar($denuncia);
 respuesta(['status'=>'success', 'id'=>$id, 'mensaje'=> 'Denuncia registrada correctamente']);
 ?>
