@@ -12,7 +12,7 @@ class CSVRepositorio {
 
     private function siguienteId(): int {
         return max(0, count(file($this->file)) - 1 + 1);
-    }
+    }   
 
     public function guardar(Denuncia $denuncia): int {
         $denuncia->id = $this->siguienteId();
@@ -25,9 +25,9 @@ class CSVRepositorio {
         fclose($archivo);
 
         return $denuncia->id;
-
     }
 
+    
     public function obtener(array $array = []): array {
         $salida = [];
         if(($archivo = fopen($this->file, 'r')) !== false){
@@ -40,5 +40,18 @@ class CSVRepositorio {
         return $salida;
     }
 
+
+    public function guardarFiltros(array $filtros): bool {
+        $filtersFile = __DIR__ . '/filtros.json'; 
+
+        $filtrosExistentes = [];
+        if (file_exists($filtersFile)) {
+            $filtrosExistentes = json_decode(file_get_contents($filtersFile), true);
+        }
+
+        $filtrosExistentes[] = $filtros;
+
+        return file_put_contents($filtersFile, json_encode($filtrosExistentes, JSON_PRETTY_PRINT)) !== false;
+    }
 }
 ?>
