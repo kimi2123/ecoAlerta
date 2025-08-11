@@ -14,7 +14,7 @@ function respuesta(array $array, int $c=200){
 #file_put_contents('php://stderr', "RAW = $fila\n");
 #$body = json_decode($fila, true) ;
 
-foreach(['tipo', 'descripcion', 'lat', 'lng'] as $campo){
+foreach(['tipo', 'descripcion', 'lat', 'lng','ciudad'] as $campo){
     if(!isset($_POST[$campo]) || $_POST[$campo] === ''){
         respuesta(['status' => 'error', "msg" => "Falta el campo $campo"], 400);
     }
