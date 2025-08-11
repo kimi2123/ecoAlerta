@@ -1,18 +1,31 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+   
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import FormDenuncia from "./FormDenuncia";
 import "./App.css";
+import Navbar from './components/Navbar'; 
+import Home from './components/sections/Home';
+import Categorias from './pages/Categorias';  
+import CategoriaResultados from './pages/CategoriaResultados';
+import Reporte from './pages/Reporte';  
+import Sobre from './pages/Sobre';  
+import NotFound from './pages/NotFound.jsx';  // Página para el error 404
 
 function App() {
-  
   return (
-    <BrowserRouter>
+    <Router>
+      {/* Navbar aparece en todas las páginas */}
+      <Navbar />
+      {/* Definición de rutas */}
       <Routes>
-        {/* Ruta para la pantalla principal de denuncia */}
+        <Route path="/" element={<Home />} />
         <Route path="/" element={<FormDenuncia />} />
-        {/* Si la ruta no coincide con ninguna de las anteriores */}
-        <Route path="*" element={<h1>Página no encontrada</h1>} />
+        <Route path="/categorias" element={<Categorias />} />
+        <Route path="/categorias/:slug" element={<CategoriaResultados />} />
+        <Route path="/reporte" element={<Reporte />} />
+        <Route path="/sobre" element={<Sobre />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
