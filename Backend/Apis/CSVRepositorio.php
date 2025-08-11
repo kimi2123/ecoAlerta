@@ -1,5 +1,5 @@
 <?php
-const CSV_HEADERS = ['id','tipo', 'descripcion', 'lat', 'lng', 'foto', 'fecha'];
+const CSV_HEADERS = ['id','tipo', 'descripcion', 'lat', 'lng', 'foto', 'fecha', 'ciudad'];
 
 class CSVRepositorio {
     public function __construct(private string $file){

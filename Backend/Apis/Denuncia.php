@@ -9,7 +9,8 @@ class Denuncia {
         public float  $lat,
         public float  $lng,
         public string $foto,
-        public string $fecha = ''   // ← sin coma final
+        public string $fecha = '',  // ← sin coma final
+        public string $ciudad
     ){
         $this->fecha = $this->fecha ?: date('c');
     }
@@ -24,6 +25,7 @@ class Denuncia {
             $this->lng,
             $this->foto,
             $this->fecha,
+            $this->ciudad
         ];
     }
 

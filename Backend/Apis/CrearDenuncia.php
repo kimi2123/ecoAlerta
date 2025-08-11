@@ -47,9 +47,9 @@ $denuncia = new Denuncia(
     htmlspecialchars($_POST['descripcion']),
     (float)$_POST['lat'],
     (float)$_POST['lng'],
-    htmlspecialchars($_POST['ciudad']),
     $dirFoto,
-    isset($_POST['fecha']) ? $_POST['fecha'] : ''
+    isset($_POST['fecha']) ? $_POST['fecha'] : '',
+    htmlspecialchars($_POST['ciudad']),
 );
 
 $rutaBase = __DIR__ . '/Denuncias.csv';
