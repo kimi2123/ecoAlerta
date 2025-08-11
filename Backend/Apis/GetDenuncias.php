@@ -1,4 +1,4 @@
-<?php // Backend/Apis/GetDenuncias.php
+<?php
 require_once __DIR__ . '/Denuncia.php';  
 require_once __DIR__ . '/CSVRepositorio.php';  
 
@@ -73,23 +73,22 @@ if (isset($_GET['ciudad'])){
 }
 
 if (!empty($filtros)) {
-    $repositorio = new CSVRepositorio(__DIR__ . '/Denuncias.csv');
+    $newCsvFile = __DIR__ . '/DenunciasFiltradas.csv';
+    $repositorioFiltrado = new CSVRepositorio($newCsvFile);
+
+    foreach ($denuncias as $denuncia) {
+        $denunciaObj = new Denuncia(
+            $denuncia['tipo'],
+            $denuncia['descripcion'],
+            (float)$denuncia['lat'],
+            (float)$denuncia['lng'],
+            $denuncia['foto'],
+            $denuncia['fecha'],
+            $denuncia['ciudad']
+        );
+        $repositorioFiltrado->guardar($denunciaObj);  
+    }
 }
-
-$newCsvFile = __DIR__ . '/DenunciasFiltradas.csv';
-$repositorioFiltrado = new CSVRepositorio($newCsvFile);
-
-foreach ($denuncias as $denuncia) {
-    $denunciaObj = new Denuncia(
-        $denuncia['tipo'],
-        $denuncia['descripcion'],
-        (float)$denuncia['lat'],
-        (float)$denuncia['lng'],
-        $denuncia['foto'],
-        $denuncia['fecha'],
-        $denuncia['ciudad']
-    );
-    $repositorioFiltrado->guardar($denunciaObj);  }
 
 echo json_encode(array_values($denuncias));
 ?>
