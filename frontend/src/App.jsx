@@ -1,7 +1,6 @@
-   
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import FormDenuncia from "./FormDenuncia";
 import "./App.css";
+import FormDenuncia from "./FormDenuncia";
 import Navbar from './components/Navbar'; 
 import Home from './components/sections/Home';
 import Categorias from './pages/Categorias';  
