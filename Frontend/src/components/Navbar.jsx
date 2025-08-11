@@ -25,7 +25,7 @@ const Navbar = () => {
         {/* Boton "Denunciar ahora" */}
         <div className="flex items-center">
           <Link
-            to="/reporte" // Esto lleva al formulario de reporte
+            to="/denunciar" // Esto lleva al formulario de reporte
             className="px-6 py-3 bg-gradient-to-r from-[#55c57a] to-[#6eaf81] text-[#000000] rounded-full shadow-lg hover:bg-[#6eaf81] transition-all"
           >
             Denunciar ahora

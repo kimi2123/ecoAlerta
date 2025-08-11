@@ -93,8 +93,3 @@ foreach ($denuncias as $denuncia) {
 
 echo json_encode(array_values($denuncias));
 ?>
-
-
-echo json_encode(array_values($denuncias));
-
-?>

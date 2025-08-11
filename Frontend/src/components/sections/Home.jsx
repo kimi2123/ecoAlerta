@@ -17,7 +17,7 @@ const Home = () => {
                     <div className="flex justify-center md:justify-start gap-4">
                         {/* Boton "Denunciar ahora" */}
                         <a
-                            href="/reporte"
+                            href="/denunciar"
                             className="px-6 py-3 bg-gradient-to-r from-[#55c57a] to-[#6eaf81] text-[#000000] rounded-full shadow-lg hover:bg-[#6eaf81] focus:outline-none"
                         >
                             Denunciar ahora

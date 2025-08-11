@@ -17,10 +17,9 @@ function App() {
       {/* Definición de rutas */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/" element={<FormDenuncia />} />
         <Route path="/categorias" element={<Categorias />} />
         <Route path="/categorias/:slug" element={<CategoriaResultados />} />
-        <Route path="/reporte" element={<Reporte />} />
+        <Route path="/denunciar" element={<FormDenuncia />} />
         <Route path="/sobre" element={<Sobre />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

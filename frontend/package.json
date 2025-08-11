@@ -2,15 +2,14 @@
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
-  "type": "module",  "scripts": {
+  "type": "module",
+  "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
-
-    
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@mui/material": "^7.3.1",
@@ -18,14 +17,12 @@
     "@tailwindcss/vite": "^4.1.11",
     "date-fns": "^4.1.0",
     "leaflet": "^1.9.4",
+    "lucide-react": "^0.539.0",
     "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
     "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0",
     "react-leaflet": "^5.0.0",
     "react-router-dom": "^7.8.0",
-    "lucide-react": "^0.539.0",
     "tailwindcss": "^4.1.11"
-
-
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",
