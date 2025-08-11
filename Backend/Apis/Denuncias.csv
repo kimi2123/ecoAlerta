@@ -1,4 +1,6 @@
-1,Contaminación,"derrame mortal ",-2.0793743159366,-79.920239903993,imagenes/den_6899419c0a63f9.39842134.png,2025-08-07T05:00:00.000Z,guayas
-2,"Incendio forestal","Arboles quemandose en la montana",-2.1711889804659,-79.925072884379,imagenes/den_68995a921ae3c2.58538913.jpg,2025-08-10T05:00:00.000Z,Guayaquil
-3,"Minería ilegal","Se escucharon explosiones a las 12am",-3.6928657098587,-79.610754425513,imagenes/den_68995b84323e00.03872057.png,2025-08-09T05:00:00.000Z,Zaruma
-4,"Vida silvestre","Mataron pajaros ",-3.6899183162684,-79.614209823632,imagenes/den_68995bb896b112.49679683.png,2025-08-09T05:00:00.000Z,Zaruma
+id,tipo,descripcion,lat,lng,foto,fecha,ciudad
+1,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+2,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+3,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+4,"Vida silvestre","matanza faauna y flora vida",-0.87902735520455,-91.033546989019,imagenes/den_6899606931e638.73343513.png,2025-08-01T05:00:00.000Z,galapagos
+5,"Minería ilegal","explosiones UPS",-2.2110106905072,-79.886974001129,imagenes/den_68996099a1a9d4.11677784.png,2025-08-01T05:00:00.000Z,galapagos
