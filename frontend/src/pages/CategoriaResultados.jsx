@@ -2,16 +2,23 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
 const CategoriaResultados = () => {
-  const { slug } = useParams(); // Obtén el parámetro "slug" de la URL
+  const { slug } = useParams();
   const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true); // Estado de carga
-  const [error, setError] = useState(null); // Estado de error
+  const [loading, setLoading] = useState(true); 
+  const [error, setError] = useState(null);
 
-  // Hacer la solicitud a la API usando el slug
+    const categorias = {
+    "contaminacion": "Contaminación",
+    "incendio-forestal": "Incendio forestal",
+    "mineria-ilegal": "Minería ilegal",
+    "vida-silvestre": "Vida silvestre"
+  };
+
+ const categoria = categorias[slug]; 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://localhost:8080/GetDenuncias.php?tipo=${slug}`);
+        const response = await fetch(`http://localhost:8080/GetDenuncias.php?tipo=${categoria}`);
         const result = await response.json();
         
         if (Array.isArray(result)) {
@@ -22,16 +29,15 @@ const CategoriaResultados = () => {
       } catch (error) {
         setError(error.message);
       } finally {
-        setLoading(false); // Finaliza la carga
+        setLoading(false); 
       }
     };
     fetchData();
-  }, [slug]); // Dependiendo del slug, realiza una nueva solicitud
+  }, [slug]); 
 
-  // Mostrar mensaje mientras se cargan los datos
+
   if (loading) return <p>Cargando...</p>;
 
-  // Mostrar mensaje de error si algo falla
   if (error) return <p>Error al cargar los datos: {error}</p>;
 
   return (

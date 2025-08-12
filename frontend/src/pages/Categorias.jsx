@@ -3,7 +3,7 @@ import { Factory, Flame, Pickaxe, Squirrel } from "lucide-react";
 
 const items = [
   { slug: "contaminacion",     title: "Contaminación",        desc: "Derrames, emisiones y desechos.", icon: Factory },
-  { slug: "incendio-forestal", title: "Incendios forestales", desc: "Fuego que amenaza bosques.",      icon: Flame },
+  { slug: "incendio-forestal", title: "Incendio forestal", desc: "Fuego que amenaza bosques.",      icon: Flame },
   { slug: "mineria-ilegal",    title: "Minería ilegal",       desc: "Actividades no autorizadas.",      icon: Pickaxe },
   { slug: "vida-silvestre",    title: "Vida silvestre",       desc: "Caza furtiva y abuso a animales.", icon: Squirrel },
 ];
