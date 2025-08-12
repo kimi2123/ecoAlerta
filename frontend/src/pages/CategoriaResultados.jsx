@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo } from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import { Factory, Flame, Pickaxe, Squirrel } from "lucide-react"; 
 
 const CategoriaResultados = () => {
   const { slug } = useParams();
@@ -8,11 +9,18 @@ const CategoriaResultados = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
+  const [ciudad, setCiudad] = useState(''); 
+  const [anio, setAnio] = useState(''); 
+
+  const [ciudadesDisponibles, setCiudadesDisponibles] = useState([]);
+  const [añosDisponibles, setAñosDisponibles] = useState([]);
+
+
   const categorias = useMemo(() => ({
-    "contaminacion": "Contaminación",
-    "incendio-forestal": "Incendio forestal",
-    "mineria-ilegal": "Minería ilegal",
-    "vida-silvestre": "Vida silvestre"
+    "contaminacion": { label: "Contaminación", icon: Factory },
+    "incendio-forestal": { label: "Incendio forestal", icon: Flame },
+    "mineria-ilegal": { label: "Minería ilegal", icon: Pickaxe },
+    "vida-silvestre": { label: "Vida silvestre", icon: Squirrel }
   }), []);
 
   const categoria = categorias[slug];
@@ -26,7 +34,12 @@ const CategoriaResultados = () => {
 
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://localhost:8080/GetDenuncias.php?tipo=${categoria}`);
+        let url = `http://localhost:8080/GetDenuncias.php?tipo=${categoria.label}`;
+
+        if (ciudad) url += `&ciudad=${ciudad}`; 
+        if (anio) url += `&anio=${anio}`; 
+
+        const response = await fetch(url);
         
         if (!response.ok) {
           throw new Error("Error al obtener los datos de la API.");
@@ -35,6 +48,12 @@ const CategoriaResultados = () => {
         const result = await response.json();
         if (Array.isArray(result)) {
           setData(result);
+
+          const ciudades = [...new Set(result.map(item => item.ciudad))];
+          const años = [...new Set(result.map(item => new Date(item.fecha).getFullYear()))];
+
+          setCiudadesDisponibles(ciudades);
+          setAñosDisponibles(años);
         } else {
           throw new Error("Formato de respuesta inesperado.");
         }
@@ -46,7 +65,7 @@ const CategoriaResultados = () => {
     };
 
     fetchData();
-  }, [slug, categoria]);
+  }, [slug, categoria, ciudad, anio]);
 
   if (loading) return <p>Cargando...</p>;
 
@@ -55,13 +74,43 @@ const CategoriaResultados = () => {
   return (
     <div className="min-h-screen bg-white p-4 flex flex-col items-center">
       <div className="text-3xl font-bold text-black mb-4 flex items-center">
-        <span className="text-green-500 mr-2">🔥</span>
-        {categoria || slug}
+        {categoria?.icon && <categoria.icon className="h-10 w-10 text-green-500 mr-2" />}
+        {categoria?.label || slug}
       </div>
 
       <div className="w-full max-w-lg bg-gray-50 p-4 rounded-lg shadow-md">
         <div className="space-y-4">
-          <div className="space-y-2">
+          <div className="flex space-x-4">
+            <div className="w-1/2">
+              <label className="block text-sm font-semibold text-black">Ciudad</label>
+              <select 
+                value={ciudad} 
+                onChange={(e) => setCiudad(e.target.value)} 
+                className="w-full border border-gray-300 p-2 rounded-md"
+              >
+                <option value="">Todas</option> 
+                {ciudadesDisponibles.map((ciudad, index) => (
+                  <option key={index} value={ciudad}>{ciudad}</option>
+                ))}
+              </select>
+            </div>
+
+            <div className="w-1/2">
+              <label className="block text-sm font-semibold text-black">Año</label>
+              <select 
+                value={anio} 
+                onChange={(e) => setAnio(e.target.value)} 
+                className="w-full border border-gray-300 p-2 rounded-md"
+              >
+                <option value="">Todos</option> 
+                {añosDisponibles.map((año, index) => (
+                  <option key={index} value={año}>{año}</option>
+                ))}
+              </select>
+            </div>
+          </div>
+
+          <div className="space-y-2 mt-4">
             <h3 className="text-lg font-semibold text-black">Denuncias</h3>
 
             {data && data.length > 0 ? (
