@@ -218,3 +218,81 @@ id,tipo,descripcion,lat,lng,foto,fecha,ciudad
 217,"Vida silvestre","Descripción Vida silvestre 8",-1.129554,-77.345687,imagenes/den_1239842.png,2025-08-03T05:00:00.000Z,Ambato
 218,"Vida silvestre","Descripción Vida silvestre 11",-2.075961,-77.897731,imagenes/den_3928491.png,2025-08-05T05:00:00.000Z,Loja
 219,"Vida silvestre","Descripción Vida silvestre 15",-1.245918,-77.526443,imagenes/den_8972135.png,2025-08-09T05:00:00.000Z,"Santo Domingo"
+220,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+221,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+222,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+223,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+224,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+225,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+226,"Vida silvestre","matanza faauna y flora vida",-0.87902735520455,-91.033546989019,imagenes/den_6899606931e638.73343513.png,2025-08-01T05:00:00.000Z,galapagos
+227,"Vida silvestre","matanza faauna y flora vida",-0.87902735520455,-91.033546989019,imagenes/den_6899606931e638.73343513.png,2025-08-01T05:00:00.000Z,galapagos
+228,"Minería ilegal","explosiones UPS",-2.2110106905072,-79.886974001129,imagenes/den_68996099a1a9d4.11677784.png,2025-08-01T05:00:00.000Z,galapagos
+229,"Minería ilegal",dasdasdsadsadasd,-2.1487697,-79.9676659,imagenes/den_689b7256368d26.20403614.png,2025-08-06T05:00:00.000Z,Guayaquil
+230,"Minería ilegal","explosiones UPS",-2.2110106905072,-79.886974001129,imagenes/den_68996099a1a9d4.11677784.png,2025-08-01T05:00:00.000Z,galapagos
+231,"Minería ilegal",dasdasdsadsadasd,-2.1487697,-79.9676659,imagenes/den_689b7256368d26.20403614.png,2025-08-06T05:00:00.000Z,Guayaquil
+232,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+233,Contaminación,"Descripción Contaminación 7",-1.573262,-76.789445,imagenes/den_2576484.png,2025-08-02T05:00:00.000Z,Cuenca
+234,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+235,Contaminación,"Descripción Contaminación 7",-1.573262,-76.789445,imagenes/den_2576484.png,2025-08-02T05:00:00.000Z,Cuenca
+236,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+237,Contaminación,"Descripción Contaminación 7",-1.573262,-76.789445,imagenes/den_2576484.png,2025-08-02T05:00:00.000Z,Cuenca
+238,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+239,Contaminación,"Descripción Contaminación 7",-1.573262,-76.789445,imagenes/den_2576484.png,2025-08-02T05:00:00.000Z,Cuenca
+240,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+241,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+242,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+243,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+244,"Incendio forestal","Descripción Incendio forestal 14",-2.526144,-79.676842,imagenes/den_1938271.png,2025-08-08T05:00:00.000Z,Quito
+245,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
+246,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+247,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+248,"Incendio forestal","Descripción Incendio forestal 14",-2.526144,-79.676842,imagenes/den_1938271.png,2025-08-08T05:00:00.000Z,Quito
+249,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
+250,"Vida silvestre","matanza faauna y flora vida",-0.87902735520455,-91.033546989019,imagenes/den_6899606931e638.73343513.png,2025-08-01T05:00:00.000Z,galapagos
+251,"Vida silvestre","Descripción Vida silvestre 8",-1.129554,-77.345687,imagenes/den_1239842.png,2025-08-03T05:00:00.000Z,Ambato
+252,"Vida silvestre","Descripción Vida silvestre 11",-2.075961,-77.897731,imagenes/den_3928491.png,2025-08-05T05:00:00.000Z,Loja
+253,"Vida silvestre","Descripción Vida silvestre 15",-1.245918,-77.526443,imagenes/den_8972135.png,2025-08-09T05:00:00.000Z,"Santo Domingo"
+254,"Vida silvestre","matanza faauna y flora vida",-0.87902735520455,-91.033546989019,imagenes/den_6899606931e638.73343513.png,2025-08-01T05:00:00.000Z,galapagos
+255,"Vida silvestre","Descripción Vida silvestre 8",-1.129554,-77.345687,imagenes/den_1239842.png,2025-08-03T05:00:00.000Z,Ambato
+256,"Vida silvestre","Descripción Vida silvestre 11",-2.075961,-77.897731,imagenes/den_3928491.png,2025-08-05T05:00:00.000Z,Loja
+257,"Vida silvestre","Descripción Vida silvestre 15",-1.245918,-77.526443,imagenes/den_8972135.png,2025-08-09T05:00:00.000Z,"Santo Domingo"
+258,"Minería ilegal","explosiones UPS",-2.2110106905072,-79.886974001129,imagenes/den_68996099a1a9d4.11677784.png,2025-08-01T05:00:00.000Z,galapagos
+259,"Minería ilegal",dasdasdsadsadasd,-2.1487697,-79.9676659,imagenes/den_689b7256368d26.20403614.png,2025-08-06T05:00:00.000Z,Guayaquil
+260,"Minería ilegal","Descripción Minería ilegal 9",-2.087426,-79.131144,imagenes/den_4387291.png,2025-08-04T05:00:00.000Z,Manta
+261,"Minería ilegal","Descripción Minería ilegal 13",-2.376775,-79.332765,imagenes/den_9837312.png,2025-08-07T05:00:00.000Z,Guayaquil
+262,"Minería ilegal","Descripción Minería ilegal 16",-2.31476,-79.607251,imagenes/den_6637021.png,2025-08-05T00:00:00,Quito
+263,"Minería ilegal","Descripción Minería ilegal 17",-4.416521,-79.763562,imagenes/den_1492450.png,2025-08-10T00:00:00,Quito
+264,"Minería ilegal","Descripción Minería ilegal 20",-4.06876,-79.792603,imagenes/den_3574317.png,2025-08-06T00:00:00,Guayaquil
+265,"Minería ilegal","explosiones UPS",-2.2110106905072,-79.886974001129,imagenes/den_68996099a1a9d4.11677784.png,2025-08-01T05:00:00.000Z,galapagos
+266,"Minería ilegal",dasdasdsadsadasd,-2.1487697,-79.9676659,imagenes/den_689b7256368d26.20403614.png,2025-08-06T05:00:00.000Z,Guayaquil
+267,"Minería ilegal","Descripción Minería ilegal 9",-2.087426,-79.131144,imagenes/den_4387291.png,2025-08-04T05:00:00.000Z,Manta
+268,"Minería ilegal","Descripción Minería ilegal 13",-2.376775,-79.332765,imagenes/den_9837312.png,2025-08-07T05:00:00.000Z,Guayaquil
+269,"Minería ilegal","Descripción Minería ilegal 16",-2.31476,-79.607251,imagenes/den_6637021.png,2025-08-05T00:00:00,Quito
+270,"Minería ilegal","Descripción Minería ilegal 17",-4.416521,-79.763562,imagenes/den_1492450.png,2025-08-10T00:00:00,Quito
+271,"Minería ilegal","Descripción Minería ilegal 20",-4.06876,-79.792603,imagenes/den_3574317.png,2025-08-06T00:00:00,Guayaquil
+272,"Vida silvestre","matanza faauna y flora vida",-0.87902735520455,-91.033546989019,imagenes/den_6899606931e638.73343513.png,2025-08-01T05:00:00.000Z,galapagos
+273,"Vida silvestre","Descripción Vida silvestre 8",-1.129554,-77.345687,imagenes/den_1239842.png,2025-08-03T05:00:00.000Z,Ambato
+274,"Vida silvestre","Descripción Vida silvestre 11",-2.075961,-77.897731,imagenes/den_3928491.png,2025-08-05T05:00:00.000Z,Loja
+275,"Vida silvestre","Descripción Vida silvestre 15",-1.245918,-77.526443,imagenes/den_8972135.png,2025-08-09T05:00:00.000Z,"Santo Domingo"
+276,"Vida silvestre","matanza faauna y flora vida",-0.87902735520455,-91.033546989019,imagenes/den_6899606931e638.73343513.png,2025-08-01T05:00:00.000Z,galapagos
+277,"Vida silvestre","Descripción Vida silvestre 8",-1.129554,-77.345687,imagenes/den_1239842.png,2025-08-03T05:00:00.000Z,Ambato
+278,"Vida silvestre","Descripción Vida silvestre 11",-2.075961,-77.897731,imagenes/den_3928491.png,2025-08-05T05:00:00.000Z,Loja
+279,"Vida silvestre","Descripción Vida silvestre 15",-1.245918,-77.526443,imagenes/den_8972135.png,2025-08-09T05:00:00.000Z,"Santo Domingo"
+280,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+281,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+282,"Incendio forestal","Descripción Incendio forestal 14",-2.526144,-79.676842,imagenes/den_1938271.png,2025-08-08T05:00:00.000Z,Quito
+283,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
+284,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+285,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+286,"Incendio forestal","Descripción Incendio forestal 14",-2.526144,-79.676842,imagenes/den_1938271.png,2025-08-08T05:00:00.000Z,Quito
+287,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
+288,"Vida silvestre","matanza faauna y flora vida",-0.87902735520455,-91.033546989019,imagenes/den_6899606931e638.73343513.png,2025-08-01T05:00:00.000Z,galapagos
+289,"Vida silvestre","Descripción Vida silvestre 8",-1.129554,-77.345687,imagenes/den_1239842.png,2025-08-03T05:00:00.000Z,Ambato
+290,"Vida silvestre","Descripción Vida silvestre 11",-2.075961,-77.897731,imagenes/den_3928491.png,2025-08-05T05:00:00.000Z,Loja
+291,"Vida silvestre","Descripción Vida silvestre 15",-1.245918,-77.526443,imagenes/den_8972135.png,2025-08-09T05:00:00.000Z,"Santo Domingo"
+292,"Vida silvestre","matanza faauna y flora vida",-0.87902735520455,-91.033546989019,imagenes/den_6899606931e638.73343513.png,2025-08-01T05:00:00.000Z,galapagos
+293,"Vida silvestre","Descripción Vida silvestre 8",-1.129554,-77.345687,imagenes/den_1239842.png,2025-08-03T05:00:00.000Z,Ambato
+294,"Vida silvestre","Descripción Vida silvestre 11",-2.075961,-77.897731,imagenes/den_3928491.png,2025-08-05T05:00:00.000Z,Loja
+295,"Vida silvestre","Descripción Vida silvestre 15",-1.245918,-77.526443,imagenes/den_8972135.png,2025-08-09T05:00:00.000Z,"Santo Domingo"
+296,"Vida silvestre","Descripción Vida silvestre 8",-1.129554,-77.345687,imagenes/den_1239842.png,2025-08-03T05:00:00.000Z,Ambato
+297,"Vida silvestre","Descripción Vida silvestre 8",-1.129554,-77.345687,imagenes/den_1239842.png,2025-08-03T05:00:00.000Z,Ambato
