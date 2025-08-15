@@ -1,6 +1,8 @@
 import React, { useEffect, useState, useMemo } from "react";
 import { MapContainer, TileLayer, Marker, Popup, useMapEvents } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
+import Button from "../src/components/Button";
+
 
 // Valor por defecto (Ecuador aprox)
 const DEFAULT_CENTER = [-1.831, -78.455]; // [lat, lng]
@@ -51,25 +53,28 @@ const LocationPanel = ({ value, onChange }) => {
     <div className="rounded-lg border p-4">
       {/* Conmutador de modo */}
       <div className="flex items-center justify-between mb-4">
-        <button
+        <Button
+         variant={mode === "gps" ? "primary":"outline"}
           type="button"
-          className={`px-3 py-1 rounded border ${mode === "gps" ? "bg-green-600 text-white" : "bg-white"}`}
+          size="sm"
           onClick={() => setMode("gps")}
           title="Asignación automática (GPS)"
         >
           ← GPS
-        </button>
+        </Button>
         <div className="text-sm text-gray-500 font-medium">
-          Asignación: {mode === "gps" ? "Automática (GPS)" : "Manual"}
+          Asignación: {mode === "gps" ? "Automática (GPS)" : "manual"}
         </div>
-        <button
+        <Button
+          variant={mode === "manual" ? "custom":"customOutline"}
+          color="#f59e0b"       // ámbar
           type="button"
-          className={`px-3 py-1 rounded border ${mode === "manual" ? "bg-amber-600 text-white" : "bg-white"}`}
+          size="sm"
           onClick={() => setMode("manual")}
           title="Asignación manual"
         >
           Manual →
-        </button>
+        </Button>
       </div>
 
       {/* Campos arriba del mapa (o del área manual) */}
@@ -79,7 +84,8 @@ const LocationPanel = ({ value, onChange }) => {
           <input
             type="number"
             step="any"
-            className="w-full border rounded px-2 py-1 text-black"
+            className="w-full border rounded-xl px-3 py-2 text-black placeholder:text-slate-400
+             focus:ring-5 focus:ring-emerald-500 focus:border-emerald-500 transition"
             value={value.lat ?? ""}
             onChange={(e) => onChange({ ...value, lat: e.target.value === "" ? null : Number(e.target.value) })}
             // Si quieres bloquear edición en GPS, descomenta:
@@ -91,7 +97,8 @@ const LocationPanel = ({ value, onChange }) => {
           <input
             type="number"
             step="any"
-            className="w-full border rounded px-2 py-1 text-black"
+            className="w-full border rounded-xl px-3 py-2 text-black placeholder:text-slate-400
+             focus:ring-5 focus:ring-emerald-500 focus:border-emerald-500 transition"
             value={value.lng ?? ""}
             onChange={(e) => onChange({ ...value, lng: e.target.value === "" ? null : Number(e.target.value) })}
             // readOnly={mode === "gps"}
@@ -104,7 +111,8 @@ const LocationPanel = ({ value, onChange }) => {
           <input
             type="text"
             placeholder="Quito, Guayaquil…"
-            className="w-full border rounded px-2 py-1 text-black"
+            className="w-full border rounded-xl px-3 py-2 text-black placeholder:text-slate-400
+             focus:ring-5 focus:ring-emerald-500 focus:border-emerald-500 transition"
             value={value.ciudad}
             onChange={(e) => onChange({ ...value, ciudad: e.target.value })}
             required={mode === "manual"}
@@ -115,7 +123,8 @@ const LocationPanel = ({ value, onChange }) => {
           <input
             type="text"
             placeholder="Calle, referencia…"
-            className="w-full border rounded px-2 py-1 text-black"
+            className="w-full border rounded-xl px-3 py-2 text-black placeholder:text-slate-400
+             focus:ring-5 focus:ring-emerald-500 focus:border-emerald-500 transition"
             value={value.direccion}
             onChange={(e) => onChange({ ...value, direccion: e.target.value })}
           />

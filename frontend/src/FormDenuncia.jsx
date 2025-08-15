@@ -3,13 +3,14 @@ import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import LocationPanel from "./LocationPanel";
-
+import Button from "../src/components/Button";
 const FormDenuncia = () => {
   const [descripcion, setDescripcion] = useState("");
   const [tipo, setTipo] = useState("");
   const [fecha, setFecha] = useState(null);
   const [foto, setFoto] = useState();
   const [error, setError] = useState(null);
+  const [sending, setSending] = useState(false);
 
   // Estado unificado de ubicación
   const [loc, setLoc] = useState({
@@ -21,6 +22,7 @@ const FormDenuncia = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setSending(true);
 
     const fechaISO = fecha instanceof Date ? fecha.toISOString() : (fecha || "");
 
@@ -52,6 +54,8 @@ const FormDenuncia = () => {
     }catch (err) {
       console.error(err);
       alert("No se pudo enviar la denuncia.");
+    }finally{
+      setSending(true);
     }
 
   };
@@ -60,15 +64,16 @@ const FormDenuncia = () => {
     <div className="container mx-auto p-4">
       <form onSubmit={handleSubmit} className="grid md:grid-cols-2 gap-6">
         {/* COLUMNA IZQUIERDA: formulario */}
-        <div className="bg-white rounded-xl shadow p-6">
+        <div className="bg-white rounded-2xl shadow-sm p-6 animate-fade-up">
           <h1 className="text-3xl font-bold mb-6 text-black">Formulario de denuncia</h1>
 
           <div className="mb-4">
-            <label className="block text-sm font-medium text-gray-700">Tipo de incidente</label>
+            <label className=" block text-sm font-medium text-gray-700">Tipo de incidente</label>
             <select
               value={tipo}
               onChange={(e) => setTipo(e.target.value)}
-              className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 text-black"
+              className="w-full border rounded-xl px-3 py-2 text-black placeholder:text-slate-400
+             focus:ring-4 focus:ring-emerald-500 focus:border-emerald-500 transition"
             >
               <option value="">— Selecciona —</option>
               <option value="Contaminación">Contaminación</option>
@@ -83,7 +88,8 @@ const FormDenuncia = () => {
             <textarea
               value={descripcion}
               onChange={(e) => setDescripcion(e.target.value)}
-              className="mt-1 block w-full h-32 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 text-black"
+              className="w-full border rounded-xl px-3 py-2 text-black placeholder:text-slate-400
+             focus:ring-4 focus:ring-emerald-500 focus:border-emerald-500 transition" 
               placeholder="Describe lo ocurrido con detalles"
             />
           </div>
@@ -92,13 +98,16 @@ const FormDenuncia = () => {
             <div>
               <label className="block text-sm font-medium text-gray-700">Fecha del incidente</label>
               <LocalizationProvider dateAdapter={AdapterDateFns}>
-                <DatePicker value={fecha} onChange={setFecha} />
+                <DatePicker className="w-full border rounded-xl px-3 py-2 text-black placeholder:text-slate-400
+             focus:ring-4 focus:ring-emerald-500 focus:border-emerald-500 transition"  value={fecha} onChange={setFecha} />
               </LocalizationProvider>
             </div>
             <div>
               <label className="block text-sm font-medium text-gray-700">Foto</label>
               <input
                 type="file"
+            className="w-full border rounded-xl px-3 py-2 text-black placeholder:text-slate-400
+             focus:ring-4 focus:ring-emerald-500 focus:border-emerald-500 transition"                
                 accept="image/*"
                 onChange={(e) => {
                   const file = e.target.files?.[0] ?? null;
@@ -114,23 +123,26 @@ const FormDenuncia = () => {
                   setFoto(file);
                   setError("");                
                 }}
-                className="mt-1 block w-full text-gray-700 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500"
               />
               {error && <p className="mt-1 text-sm text-red-600">{error}</p>}
               {foto && (<img src={URL.createObjectURL(foto)} alt="Vista previa"className="mt-2 h-24 object-cover rounded border" />)}
             </div>
           </div>
 
-          <button
+          <Button
             type="submit"
-            className="w-full mt-2 px-6 py-3 bg-green-600 text-white font-semibold rounded-md hover:bg-green-700 transition-colors"
+            variant="custom"
+            color="#16a34a"   // verde
+            fg="#ffffff"
+            size="md"
+            className="w-full mt-2"
           >
             Enviar
-          </button>
+          </Button>
         </div>
 
         {/* COLUMNA DERECHA: ubicación */}
-        <div className="bg-white rounded-xl shadow p-6">
+        <div className="bg-white rounded-2xl shadow-sm p-6 animate-fade-up">
           <h2 className="text-xl font-semibold mb-4">Ubicación</h2>
           <LocationPanel
             value={loc}
