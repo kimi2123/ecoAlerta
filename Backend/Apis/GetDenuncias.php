@@ -36,6 +36,24 @@ $denuncias = array_map(function ($r) {
     ];
 }, $filas);
 
+$scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') ? 'https' : 'http';
+$base   = $scheme . '://' . $_SERVER['HTTP_HOST'] . '/';
+
+$denuncias = array_map(function ($d) use ($base) {
+    $raw = isset($d['foto']) ? str_replace('\\','/', trim($d['foto'])) : '';
+
+    if ($raw === '') {
+        $d['foto_url'] = null;
+    } elseif (preg_match('#^https?://#i', $raw)) {
+        // ya viene absoluta
+        $d['foto_url'] = $raw;
+    } else {
+        $rel = ltrim($raw, '/');             
+        $d['foto_url'] = rtrim($base,'/') . '/' . $rel; // http://localhost:8080/imagenes/den_...png
+    }
+    return $d;
+}, $denuncias);
+
 $filtros = [];
 
 if (isset($_GET['id'])){

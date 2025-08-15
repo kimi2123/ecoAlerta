@@ -115,7 +115,12 @@ const CategoriaResultados = () => {
 
             {data && data.length > 0 ? (
               data.map((denuncia) => (
-                <div key={denuncia.id} className="border-b border-gray-300 pb-2">
+                <button
+                 key={denuncia.id} 
+                 onClick={() => navigate(`/categorias/${slug}/${denuncia.id}/informe`)}
+                 className= "w-full text-left border-b border-gray-300 py-2 hover:bg-gray-50 rounded-md transition cursor-pointer"
+                 type="button"
+                >
                   <div className="flex justify-between items-center">
                     <span className="text-sm text-gray-600">
                       {new Date(denuncia.fecha).toLocaleDateString()}
@@ -123,7 +128,7 @@ const CategoriaResultados = () => {
                     <span className="font-semibold text-gray-800">{denuncia.ciudad}</span>
                   </div>
                   <p className="text-sm text-gray-700">{denuncia.descripcion}</p>
-                </div>
+                </button>
               ))
             ) : (
               <p>No hay denuncias disponibles.</p>
