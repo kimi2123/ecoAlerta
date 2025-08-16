@@ -61,10 +61,10 @@ const FormDenuncia = () => {
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container  mx-auto p-4">
       <form onSubmit={handleSubmit} className="grid md:grid-cols-2 gap-6">
         {/* COLUMNA IZQUIERDA: formulario */}
-        <div className="bg-white rounded-2xl shadow-sm p-6 animate-fade-up">
+        <div className="bg-gray rounded-2xl shadow-sm p-6 animate-fade-up">
           <h1 className="text-3xl font-bold mb-6 text-black">Formulario de denuncia</h1>
 
           <div className="mb-4">

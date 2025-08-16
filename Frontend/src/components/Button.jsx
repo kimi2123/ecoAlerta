@@ -56,7 +56,7 @@ export default function Button({
   } else if (variant === "customOutline") {
     // Contorno: texto y borde del color, fondo transparente
     style = {
-      backgroundColor: "#10b981",
+      backgroundColor: "transparent",
       borderColor: color || "#10b981",
       color: color || "#10b981",
       "--tw-ring-color": color || "#10b981",

@@ -1350,3 +1350,87 @@ id,tipo,descripcion,lat,lng,foto,fecha,ciudad
 1349,Contaminación,"La empresa Nestle emite mucho humo",-2.1659820348391,-79.933625795248,imagenes/den_689fc44d438147.02095696.jpg,2025-08-15T05:00:00.000Z,Guayaquil
 1350,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
 1351,Contaminación,"La empresa Nestle emite mucho humo",-2.1659820348391,-79.933625795248,imagenes/den_689fc44d438147.02095696.jpg,2025-08-15T05:00:00.000Z,Guayaquil
+1352,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+1353,Contaminación,"La empresa Nestle emite mucho humo",-2.1659820348391,-79.933625795248,imagenes/den_689fc44d438147.02095696.jpg,2025-08-15T05:00:00.000Z,Guayaquil
+1354,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+1355,Contaminación,"La empresa Nestle emite mucho humo",-2.1659820348391,-79.933625795248,imagenes/den_689fc44d438147.02095696.jpg,2025-08-15T05:00:00.000Z,Guayaquil
+1356,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+1357,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+1358,"Incendio forestal","Descripción Incendio forestal 14",-2.526144,-79.676842,imagenes/den_1938271.png,2025-08-08T05:00:00.000Z,Quito
+1359,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
+1360,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+1361,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+1362,"Incendio forestal","Descripción Incendio forestal 14",-2.526144,-79.676842,imagenes/den_1938271.png,2025-08-08T05:00:00.000Z,Quito
+1363,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
+1364,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+1365,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+1366,"Incendio forestal","Descripción Incendio forestal 14",-2.526144,-79.676842,imagenes/den_1938271.png,2025-08-08T05:00:00.000Z,Quito
+1367,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
+1368,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+1369,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+1370,"Incendio forestal","Descripción Incendio forestal 14",-2.526144,-79.676842,imagenes/den_1938271.png,2025-08-08T05:00:00.000Z,Quito
+1371,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
+1372,"Vida silvestre","matanza faauna y flora vida",-0.87902735520455,-91.033546989019,imagenes/den_6899606931e638.73343513.png,2025-08-01T05:00:00.000Z,galapagos
+1373,"Vida silvestre","Descripción Vida silvestre 8",-1.129554,-77.345687,imagenes/den_1239842.png,2025-08-03T05:00:00.000Z,Ambato
+1374,"Vida silvestre","Descripción Vida silvestre 11",-2.075961,-77.897731,imagenes/den_3928491.png,2025-08-05T05:00:00.000Z,Loja
+1375,"Vida silvestre","Descripción Vida silvestre 15",-1.245918,-77.526443,imagenes/den_8972135.png,2025-08-09T05:00:00.000Z,"Santo Domingo"
+1376,"Vida silvestre","matanza faauna y flora vida",-0.87902735520455,-91.033546989019,imagenes/den_6899606931e638.73343513.png,2025-08-01T05:00:00.000Z,galapagos
+1377,"Vida silvestre","Descripción Vida silvestre 8",-1.129554,-77.345687,imagenes/den_1239842.png,2025-08-03T05:00:00.000Z,Ambato
+1378,"Vida silvestre","Descripción Vida silvestre 11",-2.075961,-77.897731,imagenes/den_3928491.png,2025-08-05T05:00:00.000Z,Loja
+1379,"Vida silvestre","Descripción Vida silvestre 15",-1.245918,-77.526443,imagenes/den_8972135.png,2025-08-09T05:00:00.000Z,"Santo Domingo"
+1380,"Vida silvestre","matanza faauna y flora vida",-0.87902735520455,-91.033546989019,imagenes/den_6899606931e638.73343513.png,2025-08-01T05:00:00.000Z,galapagos
+1381,"Vida silvestre","Descripción Vida silvestre 8",-1.129554,-77.345687,imagenes/den_1239842.png,2025-08-03T05:00:00.000Z,Ambato
+1382,"Vida silvestre","Descripción Vida silvestre 11",-2.075961,-77.897731,imagenes/den_3928491.png,2025-08-05T05:00:00.000Z,Loja
+1383,"Vida silvestre","Descripción Vida silvestre 15",-1.245918,-77.526443,imagenes/den_8972135.png,2025-08-09T05:00:00.000Z,"Santo Domingo"
+1384,"Vida silvestre","matanza faauna y flora vida",-0.87902735520455,-91.033546989019,imagenes/den_6899606931e638.73343513.png,2025-08-01T05:00:00.000Z,galapagos
+1385,"Vida silvestre","Descripción Vida silvestre 8",-1.129554,-77.345687,imagenes/den_1239842.png,2025-08-03T05:00:00.000Z,Ambato
+1386,"Vida silvestre","Descripción Vida silvestre 11",-2.075961,-77.897731,imagenes/den_3928491.png,2025-08-05T05:00:00.000Z,Loja
+1387,"Vida silvestre","Descripción Vida silvestre 15",-1.245918,-77.526443,imagenes/den_8972135.png,2025-08-09T05:00:00.000Z,"Santo Domingo"
+1388,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+1389,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+1390,"Incendio forestal","Descripción Incendio forestal 14",-2.526144,-79.676842,imagenes/den_1938271.png,2025-08-08T05:00:00.000Z,Quito
+1391,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
+1392,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+1393,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+1394,"Incendio forestal","Descripción Incendio forestal 14",-2.526144,-79.676842,imagenes/den_1938271.png,2025-08-08T05:00:00.000Z,Quito
+1395,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
+1396,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+1397,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+1398,"Incendio forestal","Descripción Incendio forestal 14",-2.526144,-79.676842,imagenes/den_1938271.png,2025-08-08T05:00:00.000Z,Quito
+1399,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
+1400,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+1401,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+1402,"Incendio forestal","Descripción Incendio forestal 14",-2.526144,-79.676842,imagenes/den_1938271.png,2025-08-08T05:00:00.000Z,Quito
+1403,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
+1404,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+1405,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+1406,"Incendio forestal","Descripción Incendio forestal 14",-2.526144,-79.676842,imagenes/den_1938271.png,2025-08-08T05:00:00.000Z,Quito
+1407,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
+1408,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+1409,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+1410,"Incendio forestal","Descripción Incendio forestal 14",-2.526144,-79.676842,imagenes/den_1938271.png,2025-08-08T05:00:00.000Z,Quito
+1411,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
+1412,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+1413,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+1414,"Incendio forestal","Descripción Incendio forestal 14",-2.526144,-79.676842,imagenes/den_1938271.png,2025-08-08T05:00:00.000Z,Quito
+1415,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
+1416,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+1417,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+1418,"Incendio forestal","Descripción Incendio forestal 14",-2.526144,-79.676842,imagenes/den_1938271.png,2025-08-08T05:00:00.000Z,Quito
+1419,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
+1420,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+1421,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+1422,"Incendio forestal","Descripción Incendio forestal 14",-2.526144,-79.676842,imagenes/den_1938271.png,2025-08-08T05:00:00.000Z,Quito
+1423,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
+1424,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+1425,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+1426,"Incendio forestal","Descripción Incendio forestal 14",-2.526144,-79.676842,imagenes/den_1938271.png,2025-08-08T05:00:00.000Z,Quito
+1427,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
+1428,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+1429,Contaminación,"La empresa Nestle emite mucho humo",-2.1659820348391,-79.933625795248,imagenes/den_689fc44d438147.02095696.jpg,2025-08-15T05:00:00.000Z,Guayaquil
+1430,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+1431,Contaminación,"La empresa Nestle emite mucho humo",-2.1659820348391,-79.933625795248,imagenes/den_689fc44d438147.02095696.jpg,2025-08-15T05:00:00.000Z,Guayaquil
+1432,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+1433,Contaminación,"La empresa Nestle emite mucho humo",-2.1659820348391,-79.933625795248,imagenes/den_689fc44d438147.02095696.jpg,2025-08-15T05:00:00.000Z,Guayaquil
+1434,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+1435,Contaminación,"La empresa Nestle emite mucho humo",-2.1659820348391,-79.933625795248,imagenes/den_689fc44d438147.02095696.jpg,2025-08-15T05:00:00.000Z,Guayaquil
