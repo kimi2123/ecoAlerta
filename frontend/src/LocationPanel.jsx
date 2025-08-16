@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useMemo } from "react";
 import { MapContainer, TileLayer, Marker, Popup, useMapEvents } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import Button from "../src/components/Button";
+import Button from "./components/Button";
 
 
 // Valor por defecto (Ecuador aprox)

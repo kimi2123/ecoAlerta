@@ -3,7 +3,7 @@ import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import LocationPanel from "./LocationPanel";
-import Button from "../src/components/Button";
+import Button from "./components/Button";
 const FormDenuncia = () => {
   const [descripcion, setDescripcion] = useState("");
   const [tipo, setTipo] = useState("");
