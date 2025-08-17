@@ -1434,3 +1434,83 @@ id,tipo,descripcion,lat,lng,foto,fecha,ciudad
 1433,Contaminación,"La empresa Nestle emite mucho humo",-2.1659820348391,-79.933625795248,imagenes/den_689fc44d438147.02095696.jpg,2025-08-15T05:00:00.000Z,Guayaquil
 1434,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
 1435,Contaminación,"La empresa Nestle emite mucho humo",-2.1659820348391,-79.933625795248,imagenes/den_689fc44d438147.02095696.jpg,2025-08-15T05:00:00.000Z,Guayaquil
+1436,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+1437,Contaminación,"La empresa Nestle emite mucho humo",-2.1659820348391,-79.933625795248,imagenes/den_689fc44d438147.02095696.jpg,2025-08-15T05:00:00.000Z,Guayaquil
+1438,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+1439,Contaminación,"La empresa Nestle emite mucho humo",-2.1659820348391,-79.933625795248,imagenes/den_689fc44d438147.02095696.jpg,2025-08-15T05:00:00.000Z,Guayaquil
+1440,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+1441,Contaminación,"La empresa Nestle emite mucho humo",-2.1659820348391,-79.933625795248,imagenes/den_689fc44d438147.02095696.jpg,2025-08-15T05:00:00.000Z,Guayaquil
+1442,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+1443,Contaminación,"La empresa Nestle emite mucho humo",-2.1659820348391,-79.933625795248,imagenes/den_689fc44d438147.02095696.jpg,2025-08-15T05:00:00.000Z,Guayaquil
+1444,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+1445,Contaminación,"La empresa Nestle emite mucho humo",-2.1659820348391,-79.933625795248,imagenes/den_689fc44d438147.02095696.jpg,2025-08-15T05:00:00.000Z,Guayaquil
+1446,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+1447,Contaminación,"La empresa Nestle emite mucho humo",-2.1659820348391,-79.933625795248,imagenes/den_689fc44d438147.02095696.jpg,2025-08-15T05:00:00.000Z,Guayaquil
+1448,"Minería ilegal","explosiones UPS",-2.2110106905072,-79.886974001129,imagenes/den_68996099a1a9d4.11677784.png,2025-08-01T05:00:00.000Z,galapagos
+1449,"Minería ilegal",dasdasdsadsadasd,-2.1487697,-79.9676659,imagenes/den_689b7256368d26.20403614.png,2025-08-06T05:00:00.000Z,Guayaquil
+1450,"Minería ilegal","Descripción Minería ilegal 9",-2.087426,-79.131144,imagenes/den_4387291.png,2025-08-04T05:00:00.000Z,Manta
+1451,"Minería ilegal","Descripción Minería ilegal 13",-2.376775,-79.332765,imagenes/den_9837312.png,2025-08-07T05:00:00.000Z,Guayaquil
+1452,"Minería ilegal","Descripción Minería ilegal 16",-2.31476,-79.607251,imagenes/den_6637021.png,2025-08-05T00:00:00,Quito
+1453,"Minería ilegal","Descripción Minería ilegal 17",-4.416521,-79.763562,imagenes/den_1492450.png,2025-08-10T00:00:00,Quito
+1454,"Minería ilegal","Descripción Minería ilegal 20",-4.06876,-79.792603,imagenes/den_3574317.png,2025-08-06T00:00:00,Guayaquil
+1455,"Minería ilegal","explosiones UPS",-2.2110106905072,-79.886974001129,imagenes/den_68996099a1a9d4.11677784.png,2025-08-01T05:00:00.000Z,galapagos
+1456,"Minería ilegal",dasdasdsadsadasd,-2.1487697,-79.9676659,imagenes/den_689b7256368d26.20403614.png,2025-08-06T05:00:00.000Z,Guayaquil
+1457,"Minería ilegal","Descripción Minería ilegal 9",-2.087426,-79.131144,imagenes/den_4387291.png,2025-08-04T05:00:00.000Z,Manta
+1458,"Minería ilegal","Descripción Minería ilegal 13",-2.376775,-79.332765,imagenes/den_9837312.png,2025-08-07T05:00:00.000Z,Guayaquil
+1459,"Minería ilegal","Descripción Minería ilegal 16",-2.31476,-79.607251,imagenes/den_6637021.png,2025-08-05T00:00:00,Quito
+1460,"Minería ilegal","Descripción Minería ilegal 17",-4.416521,-79.763562,imagenes/den_1492450.png,2025-08-10T00:00:00,Quito
+1461,"Minería ilegal","Descripción Minería ilegal 20",-4.06876,-79.792603,imagenes/den_3574317.png,2025-08-06T00:00:00,Guayaquil
+1462,"Minería ilegal","explosiones UPS",-2.2110106905072,-79.886974001129,imagenes/den_68996099a1a9d4.11677784.png,2025-08-01T05:00:00.000Z,galapagos
+1463,"Minería ilegal",dasdasdsadsadasd,-2.1487697,-79.9676659,imagenes/den_689b7256368d26.20403614.png,2025-08-06T05:00:00.000Z,Guayaquil
+1464,"Minería ilegal","Descripción Minería ilegal 9",-2.087426,-79.131144,imagenes/den_4387291.png,2025-08-04T05:00:00.000Z,Manta
+1465,"Minería ilegal","Descripción Minería ilegal 13",-2.376775,-79.332765,imagenes/den_9837312.png,2025-08-07T05:00:00.000Z,Guayaquil
+1466,"Minería ilegal","Descripción Minería ilegal 16",-2.31476,-79.607251,imagenes/den_6637021.png,2025-08-05T00:00:00,Quito
+1467,"Minería ilegal","Descripción Minería ilegal 17",-4.416521,-79.763562,imagenes/den_1492450.png,2025-08-10T00:00:00,Quito
+1468,"Minería ilegal","Descripción Minería ilegal 20",-4.06876,-79.792603,imagenes/den_3574317.png,2025-08-06T00:00:00,Guayaquil
+1469,"Minería ilegal","explosiones UPS",-2.2110106905072,-79.886974001129,imagenes/den_68996099a1a9d4.11677784.png,2025-08-01T05:00:00.000Z,galapagos
+1470,"Minería ilegal",dasdasdsadsadasd,-2.1487697,-79.9676659,imagenes/den_689b7256368d26.20403614.png,2025-08-06T05:00:00.000Z,Guayaquil
+1471,"Minería ilegal","Descripción Minería ilegal 9",-2.087426,-79.131144,imagenes/den_4387291.png,2025-08-04T05:00:00.000Z,Manta
+1472,"Minería ilegal","Descripción Minería ilegal 13",-2.376775,-79.332765,imagenes/den_9837312.png,2025-08-07T05:00:00.000Z,Guayaquil
+1473,"Minería ilegal","Descripción Minería ilegal 16",-2.31476,-79.607251,imagenes/den_6637021.png,2025-08-05T00:00:00,Quito
+1474,"Minería ilegal","Descripción Minería ilegal 17",-4.416521,-79.763562,imagenes/den_1492450.png,2025-08-10T00:00:00,Quito
+1475,"Minería ilegal","Descripción Minería ilegal 20",-4.06876,-79.792603,imagenes/den_3574317.png,2025-08-06T00:00:00,Guayaquil
+1476,"Minería ilegal","explosiones UPS",-2.2110106905072,-79.886974001129,imagenes/den_68996099a1a9d4.11677784.png,2025-08-01T05:00:00.000Z,galapagos
+1477,"Minería ilegal",dasdasdsadsadasd,-2.1487697,-79.9676659,imagenes/den_689b7256368d26.20403614.png,2025-08-06T05:00:00.000Z,Guayaquil
+1478,"Minería ilegal","Descripción Minería ilegal 9",-2.087426,-79.131144,imagenes/den_4387291.png,2025-08-04T05:00:00.000Z,Manta
+1479,"Minería ilegal","Descripción Minería ilegal 13",-2.376775,-79.332765,imagenes/den_9837312.png,2025-08-07T05:00:00.000Z,Guayaquil
+1480,"Minería ilegal","Descripción Minería ilegal 16",-2.31476,-79.607251,imagenes/den_6637021.png,2025-08-05T00:00:00,Quito
+1481,"Minería ilegal","Descripción Minería ilegal 17",-4.416521,-79.763562,imagenes/den_1492450.png,2025-08-10T00:00:00,Quito
+1482,"Minería ilegal","Descripción Minería ilegal 20",-4.06876,-79.792603,imagenes/den_3574317.png,2025-08-06T00:00:00,Guayaquil
+1483,"Minería ilegal","explosiones UPS",-2.2110106905072,-79.886974001129,imagenes/den_68996099a1a9d4.11677784.png,2025-08-01T05:00:00.000Z,galapagos
+1484,"Minería ilegal",dasdasdsadsadasd,-2.1487697,-79.9676659,imagenes/den_689b7256368d26.20403614.png,2025-08-06T05:00:00.000Z,Guayaquil
+1485,"Minería ilegal","Descripción Minería ilegal 9",-2.087426,-79.131144,imagenes/den_4387291.png,2025-08-04T05:00:00.000Z,Manta
+1486,"Minería ilegal","Descripción Minería ilegal 13",-2.376775,-79.332765,imagenes/den_9837312.png,2025-08-07T05:00:00.000Z,Guayaquil
+1487,"Minería ilegal","Descripción Minería ilegal 16",-2.31476,-79.607251,imagenes/den_6637021.png,2025-08-05T00:00:00,Quito
+1488,"Minería ilegal","Descripción Minería ilegal 17",-4.416521,-79.763562,imagenes/den_1492450.png,2025-08-10T00:00:00,Quito
+1489,"Minería ilegal","Descripción Minería ilegal 20",-4.06876,-79.792603,imagenes/den_3574317.png,2025-08-06T00:00:00,Guayaquil
+1490,"Minería ilegal","explosiones UPS",-2.2110106905072,-79.886974001129,imagenes/den_68996099a1a9d4.11677784.png,2025-08-01T05:00:00.000Z,galapagos
+1491,"Minería ilegal",dasdasdsadsadasd,-2.1487697,-79.9676659,imagenes/den_689b7256368d26.20403614.png,2025-08-06T05:00:00.000Z,Guayaquil
+1492,"Minería ilegal","Descripción Minería ilegal 9",-2.087426,-79.131144,imagenes/den_4387291.png,2025-08-04T05:00:00.000Z,Manta
+1493,"Minería ilegal","Descripción Minería ilegal 13",-2.376775,-79.332765,imagenes/den_9837312.png,2025-08-07T05:00:00.000Z,Guayaquil
+1494,"Minería ilegal","Descripción Minería ilegal 16",-2.31476,-79.607251,imagenes/den_6637021.png,2025-08-05T00:00:00,Quito
+1495,"Minería ilegal","Descripción Minería ilegal 17",-4.416521,-79.763562,imagenes/den_1492450.png,2025-08-10T00:00:00,Quito
+1496,"Minería ilegal","Descripción Minería ilegal 20",-4.06876,-79.792603,imagenes/den_3574317.png,2025-08-06T00:00:00,Guayaquil
+1497,"Minería ilegal","explosiones UPS",-2.2110106905072,-79.886974001129,imagenes/den_68996099a1a9d4.11677784.png,2025-08-01T05:00:00.000Z,galapagos
+1498,"Minería ilegal",dasdasdsadsadasd,-2.1487697,-79.9676659,imagenes/den_689b7256368d26.20403614.png,2025-08-06T05:00:00.000Z,Guayaquil
+1499,"Minería ilegal","Descripción Minería ilegal 9",-2.087426,-79.131144,imagenes/den_4387291.png,2025-08-04T05:00:00.000Z,Manta
+1500,"Minería ilegal","Descripción Minería ilegal 13",-2.376775,-79.332765,imagenes/den_9837312.png,2025-08-07T05:00:00.000Z,Guayaquil
+1501,"Minería ilegal","Descripción Minería ilegal 16",-2.31476,-79.607251,imagenes/den_6637021.png,2025-08-05T00:00:00,Quito
+1502,"Minería ilegal","Descripción Minería ilegal 17",-4.416521,-79.763562,imagenes/den_1492450.png,2025-08-10T00:00:00,Quito
+1503,"Minería ilegal","Descripción Minería ilegal 20",-4.06876,-79.792603,imagenes/den_3574317.png,2025-08-06T00:00:00,Guayaquil
+1504,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+1505,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+1506,"Incendio forestal","Descripción Incendio forestal 14",-2.526144,-79.676842,imagenes/den_1938271.png,2025-08-08T05:00:00.000Z,Quito
+1507,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
+1508,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
+1509,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
+1510,"Incendio forestal","Descripción Incendio forestal 14",-2.526144,-79.676842,imagenes/den_1938271.png,2025-08-08T05:00:00.000Z,Quito
+1511,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
+1512,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+1513,Contaminación,"La empresa Nestle emite mucho humo",-2.1659820348391,-79.933625795248,imagenes/den_689fc44d438147.02095696.jpg,2025-08-15T05:00:00.000Z,Guayaquil
+1514,Contaminación,"matanza faauna marina",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,galapagos
+1515,Contaminación,"La empresa Nestle emite mucho humo",-2.1659820348391,-79.933625795248,imagenes/den_689fc44d438147.02095696.jpg,2025-08-15T05:00:00.000Z,Guayaquil
