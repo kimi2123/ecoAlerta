@@ -16,3 +16,5 @@ id,tipo,descripcion,lat,lng,foto,fecha,ciudad
 15,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
 16,"Minería ilegal","Descripción Minería ilegal 20",-4.06876,-79.792603,imagenes/den_3574317.png,2025-08-06T00:00:00,Guayaquil
 17,Contaminación,"La empresa Nestle emite mucho humo",-2.1659820348391,-79.933625795248,imagenes/den_689fc44d438147.02095696.jpg,2025-08-15T05:00:00.000Z,Guayaquil
+18,Contaminación,"Derrame petrolero en el puerto",-2.0792997327498,-79.920228613184,imagenes/den_68a14f2b368eb7.13238310.png,2025-08-07T05:00:00.000Z,Guayquil
+19,Contaminación,"Derrame petrolero en el puerto",-2.0792997327498,-79.920228613184,imagenes/den_68a14f3f893ee9.83807104.png,2025-08-07T05:00:00.000Z,Guayquil
