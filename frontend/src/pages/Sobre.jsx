@@ -30,8 +30,9 @@ export default function Sobre() {
       {/* fondo suave en degradado (no tapa el contenido) */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-emerald-50/70 to-teal-50/20" />
 
-      <section className="relative container mx-auto px-6 py-12">
-        <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 mb-8">
+      <section className="relative container mx-auto px-6 py-12 grid md:grid-cols-2 gap-10 items-start">
+        <div> 
+         <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 mb-8">
           Cómo funciona EcoAlerta
         </h1>
 
@@ -42,13 +43,32 @@ export default function Sobre() {
           <Bullet>En caso de no poder acceder a la geolocalizacion existe modo manual para asignar la ubicacion</Bullet>
           <Bullet>Los incidentes reportados seran guardados en una base de datos</Bullet>
         </ul>
+        </div>
+          
+        <div>
+           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 mb-8">
+          Cómo acceder a los registros de los incidentes
+        </h1>
+
+        <ul className="space-y-4 mb-10">
+          <Bullet>Acceda a la seccion de categorias en la parte superior.</Bullet>
+          <Bullet>Acceda al tipo de incidente al que quiere acceder</Bullet>
+          <Bullet>Cuando acceda se mostrara una lista con los incidentes de esa categoria</Bullet>
+          <Bullet>Podra aplastar click encima de un incidente y se mostrara todos los datos recibidos acerca de la denuncia del incidente</Bullet>
+        </ul>
+        </div>
 
         {/* tarjeta de contacto */}
+        <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 mb-8">
+          Para contactarnos puede escribir al siguiente correo           
+        </h1>
         <div className="w-fit bg-white border rounded-xl shadow-sm p-4 flex items-center gap-3">
+          
           <MailIcon />
+           
           <a
             href="mailto:contacto@ecoalerta.ec"
-            className="font-medium text-emerald-700 hover:underline"
+            className="font-medium text-emerald-700 hover:underline size-full"
           >
             contacto@ecoalerta.ec
           </a>
