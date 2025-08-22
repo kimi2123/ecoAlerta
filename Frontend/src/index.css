@@ -2,3 +2,31 @@
 
 html, body, #root { height: 100%; }
 body { @apply bg-white text-slate-900 antialiased; }
+
+.text-gradient {
+    background: linear-gradient(45deg, #55c57a, #6eaf81);
+    /* Degradado de verde a verde más claro */
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Aplica el gradiente solo al texto */
+    -webkit-text-fill-color: transparent;
+    /* Hace el texto transparente para que el gradiente se vea */
+}
+
+
+/* Animación de movimiento de arriba a abajo */
+@keyframes moveUpToDown {
+  0% {
+    transform: translateY(-20px); /* Empieza un poco fuera de la pantalla (izquierda) */
+  }
+  50% {
+    transform: translateY(20px); /* Mueve el logo a la derecha */
+  }
+  100% {
+    transform: translateY(-20px); /* Vuelve a la posición inicial (izquierda) */
+  }
+}
+
+.animate-move-up {
+  animation: moveUpToDown 5s ease-in-out infinite; /* Mueve dearriba a bajo de forma continua */
+}
