@@ -46,6 +46,41 @@ export default function Sobre() {
         </div>
           
         <div>
+            <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-8">
+            ¿Qué puedes reportar?
+          </h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="rounded-xl border bg-white p-5 shadow-sm">
+              <h3 className="font-semibold text-slate-900">Contaminación</h3>
+              <p className="text-slate-600 text-sm mt-1">
+                Derrames, emisiones y desechos.
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-5 shadow-sm">
+              <h3 className="font-semibold text-slate-900">Incendios forestales</h3>
+              <p className="text-slate-600 text-sm mt-1">
+                Focos de fuego, humo o riesgos inminentes.
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-5 shadow-sm">
+              <h3 className="font-semibold text-slate-900">Minería ilegal</h3>
+              <p className="text-slate-600 text-sm mt-1">
+                Actividades no autorizadas o daños visibles.
+              </p>
+            </div>
+            <div className="rounded-xl border bg-white p-5 shadow-sm">
+              <h3 className="font-semibold text-slate-900">Vida silvestre</h3>
+              <p className="text-slate-600 text-sm mt-1">
+                Actividades no autorizadas, como caza furtiva, pesca u recoleccion.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Bloque extra opcional: qué se puede reportar */}
+      <section className="relative container mx-auto px-6 pb-16">
+        <div>
            <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 mb-8">
           Cómo acceder a los registros de los incidentes
         </h1>
@@ -74,39 +109,7 @@ export default function Sobre() {
           </a>
         </div>
       </section>
-
-      {/* Bloque extra opcional: qué se puede reportar */}
-      <section className="relative container mx-auto px-6 pb-16">
-        <h2 className="text-2xl font-semibold text-slate-900 mb-4">
-          ¿Qué puedes reportar?
-        </h2>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          <div className="rounded-xl border bg-white p-5 shadow-sm">
-            <h3 className="font-semibold text-slate-900">Contaminación</h3>
-            <p className="text-slate-600 text-sm mt-1">
-              Derrames, emisiones y desechos.
-            </p>
-          </div>
-          <div className="rounded-xl border bg-white p-5 shadow-sm">
-            <h3 className="font-semibold text-slate-900">Incendios forestales</h3>
-            <p className="text-slate-600 text-sm mt-1">
-              Focos de fuego, humo o riesgos inminentes.
-            </p>
-          </div>
-          <div className="rounded-xl border bg-white p-5 shadow-sm">
-            <h3 className="font-semibold text-slate-900">Minería ilegal</h3>
-            <p className="text-slate-600 text-sm mt-1">
-              Actividades no autorizadas o daños visibles.
-            </p>
-          </div>
-          <div className="rounded-xl border bg-white p-5 shadow-sm">
-            <h3 className="font-semibold text-slate-900">Vida silvestre</h3>
-            <p className="text-slate-600 text-sm mt-1">
-              Actividades no autorizadas, como caza furtiva, pesca u recoleccion.
-            </p>
-          </div>
-        </div>
-      </section>
+      
     </main>
   );
 }

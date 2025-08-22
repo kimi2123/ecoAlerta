@@ -1,20 +1,6 @@
-id,tipo,descripcion,lat,lng,foto,fecha,ciudad
-1,"Incendio forestal","incendio amazonas por 5 dias",-15.502141553696,-48.327425384513,imagenes/den_6899600b5821b2.06228365.png,2025-08-01T05:00:00.000Z,Brazil
-2,"Incendio forestal","incendio provocado zaruma",-3.1437167553273,-78.999711621263,imagenes/den_68996032368973.81585857.png,2025-08-01T05:00:00.000Z,zaruma
-3,Contaminación,"matanza de animales silvestres",-0.86617354026015,-91.017239977958,imagenes/den_68996057a15c86.40061717.png,2025-08-01T05:00:00.000Z,Galapagos
-4,"Vida silvestre","matanza faauna y flora vida",-0.87902735520455,-91.033546989019,imagenes/den_6899606931e638.73343513.png,2025-08-01T05:00:00.000Z,Galapagos
-5,"Minería ilegal","explosiones UPS",-2.2110106905072,-79.886974001129,imagenes/den_68996099a1a9d4.11677784.png,2025-08-01T05:00:00.000Z,galapagos
-6,"Minería ilegal",dasdasdsadsadasd,-2.1487697,-79.9676659,imagenes/den_689b7256368d26.20403614.png,2025-08-06T05:00:00.000Z,Guayaquil
-7,"Vida silvestre","Descripción Vida silvestre 8",-1.129554,-77.345687,imagenes/den_1239842.png,2025-08-03T05:00:00.000Z,Ambato
-8,"Minería ilegal","Descripción Minería ilegal 9",-2.087426,-79.131144,imagenes/den_4387291.png,2025-08-04T05:00:00.000Z,Manta
-9,"Vida silvestre","Descripción Vida silvestre 11",-2.075961,-77.897731,imagenes/den_3928491.png,2025-08-05T05:00:00.000Z,Loja
-10,"Minería ilegal","Descripción Minería ilegal 13",-2.376775,-79.332765,imagenes/den_9837312.png,2025-08-07T05:00:00.000Z,Guayaquil
-11,"Incendio forestal","Descripción Incendio forestal 14",-2.526144,-79.676842,imagenes/den_1938271.png,2025-08-08T05:00:00.000Z,Quito
-12,"Vida silvestre","Descripción Vida silvestre 15",-1.245918,-77.526443,imagenes/den_8972135.png,2025-08-09T05:00:00.000Z,Santo Domingo
-13,"Minería ilegal","Descripción Minería ilegal 16",-2.31476,-79.607251,imagenes/den_6637021.png,2025-08-05T00:00:00,Quito
-14,"Minería ilegal","Descripción Minería ilegal 17",-4.416521,-79.763562,imagenes/den_1492450.png,2025-08-10T00:00:00,Quito
-15,"Incendio forestal","Descripción Incendio forestal 18",-1.896339,-78.263909,imagenes/den_3945139.png,2025-08-10T00:00:00,Loja
-16,"Minería ilegal","Descripción Minería ilegal 20",-4.06876,-79.792603,imagenes/den_3574317.png,2025-08-06T00:00:00,Guayaquil
-17,Contaminación,"La empresa Nestle emite mucho humo",-2.1659820348391,-79.933625795248,imagenes/den_689fc44d438147.02095696.jpg,2025-08-15T05:00:00.000Z,Guayaquil
-18,Contaminación,"Derrame petrolero en el puerto",-2.0792997327498,-79.920228613184,imagenes/den_68a14f2b368eb7.13238310.png,2025-08-07T05:00:00.000Z,Guayquil
-19,Contaminación,"Derrame petrolero en el puerto",-2.0792997327498,-79.920228613184,imagenes/den_68a14f3f893ee9.83807104.png,2025-08-07T05:00:00.000Z,Guayquil
+0,Contaminación,"Derrame petrolero en la zona costera de Machala EL Oro.",-3.4015650910828,-79.945254545848,imagenes/den_68a8fcbca2c4a5.01431364.webp,2025-08-07T05:00:00.000Z,Machala
+1,Contaminación,"Derrame petrolero en la zona costera de guayaquil provocado por empresa corrupta.",-2.1787722936428,-79.88489775472,imagenes/den_68a8fd112b48a4.75354705.webp,2025-08-07T05:00:00.000Z,Guayaquil
+2,"Incendio forestal","Incendio provocado en el amazonas",-2.1720292332809,-71.345155011521,imagenes/den_68a8fd3fa36661.63006182.jpg,2024-05-08T05:00:00.000Z,"Selva amazonas"
+3,"Incendio forestal","Incendio provocado en el oriente del Ecuador por empresa fabricadora de vidrio.",-1.8443249880885,-76.843101086019,imagenes/den_68a8fd877cf8f0.74426719.webp,2017-05-17T05:00:00.000Z,Pastaza
+4,"Vida silvestre","Caza furtiva ilegal en Iquitos, se detuvo presuntas cargas de monos de contrabando.",-3.7518911433903,-73.265549192811,imagenes/den_68a8fde25ef4b0.91602527.webp,2010-05-14T05:00:00.000Z,Iquitos
+5,"Vida silvestre","Caza furtiva de animales en peligro de extinción.",-0.48664520930173,15.899949824603,imagenes/den_68a8fe352156f8.95816582.jpg,2000-05-17T05:00:00.000Z,Congo

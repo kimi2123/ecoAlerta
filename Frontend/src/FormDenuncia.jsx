@@ -143,7 +143,7 @@ const FormDenuncia = () => {
 
         {/* COLUMNA DERECHA: ubicación */}
         <div className="bg-white rounded-2xl shadow-sm p-6 animate-fade-up">
-          <h2 className="text-xl font-semibold mb-4">Ubicación</h2>
+          <h2 className="text-3xl font-bold mb-6 text-black">Ubicación</h2>
           <LocationPanel
             value={loc}
             onChange={(next) => setLoc(next)}
