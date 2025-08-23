@@ -1,8 +1,9 @@
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import iconRetinaUrl from 'leaflet/dist/images/marker-icon-2x.png';
-import iconUrl       from 'leaflet/dist/images/marker-icon.png';
-import shadowUrl     from 'leaflet/dist/images/marker-shadow.png';
+import iconUrl from 'leaflet/dist/images/marker-icon.png';
+import shadowUrl from 'leaflet/dist/images/marker-shadow.png';
+import { useNavigate } from "react-router-dom";
 
 // Evita reconfigurar si ya está hecho
 if (!L.Icon.Default.prototype._getIconUrl) {
@@ -28,6 +29,7 @@ const IconoPorSlug = {
 };
 
 export default function Informe() {
+  const navigate = useNavigate();
   const { slug, id } = useParams();
   const [denuncia, setDenuncia] = useState(null);
   const [error, setError] = useState(null);
@@ -111,57 +113,65 @@ export default function Informe() {
             )}
           </div>
           <div>
-              <div className="flex items-center gap-3">
-                <CalendarDays className="h-5 w-5 text-orange-500" />
-                <h2 className="text-lg font-semibold text-slate-900">Fecha del incidente</h2>
-              </div>
-              <p className="mt-2 text-xl">{fecha}</p>
-          </div>
-        
-          <div>
-              <div className="flex items-center gap-3">
-                <MapPin className="h-5 w-5 text-orange-500" />
-                <h2 className="text-lg font-semibold text-slate-900">Ubicación y fotos</h2>
-              </div>
-
-              <div className="mt-3 grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="rounded-xl overflow-hidden border border-slate-200">
-                  {tieneCoordenadas ? (
-                    <MapContainer center={[lat, lng]} zoom={14} scrollWheelZoom={false} className="h-48 w-full">
-                      <TileLayer
-                        attribution='&copy; OpenStreetMap contributors'
-                        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                      />
-                      <Marker position={[lat, lng]}>
-                        <Popup>
-                          {denuncia.tipo}{denuncia.ciudad ? ` — ${denuncia.ciudad}` : ""}
-                        </Popup>
-                      </Marker>
-                    </MapContainer>
-                  ) : (
-                    <div className="h-48 w-full flex items-center justify-center bg-slate-100 text-slate-500">
-                      Sin coordenadas
-                    </div>
-                  )}
-           </div>
-
-          <div className="rounded-xl overflow-hidden border border-slate-200 min-h-48 flex items-center justify-center bg-slate-50">
-          {fotoUrl ? (
-            <img src={fotoUrl} alt="Evidencia" className="w-full h-48 object-cover" loading="lazy" />
-          ) : (
-            <div className="flex items-center gap-2 text-slate-500">
-              <ImageIcon className="h-5 w-5" /> Sin foto adjunta
+            <div className="flex items-center gap-3">
+              <CalendarDays className="h-5 w-5 text-orange-500" />
+              <h2 className="text-lg font-semibold text-slate-900">Fecha del incidente</h2>
             </div>
+            <p className="mt-2 text-xl">{fecha}</p>
+          </div>
+
+          <div>
+            <div className="flex items-center gap-3">
+              <MapPin className="h-5 w-5 text-orange-500" />
+              <h2 className="text-lg font-semibold text-slate-900">Ubicación y fotos</h2>
+            </div>
+
+            <div className="mt-3 grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="rounded-xl overflow-hidden border border-slate-200">
+                {tieneCoordenadas ? (
+                  <MapContainer center={[lat, lng]} zoom={14} scrollWheelZoom={false} className="h-48 w-full">
+                    <TileLayer
+                      attribution='&copy; OpenStreetMap contributors'
+                      url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    />
+                    <Marker position={[lat, lng]}>
+                      <Popup>
+                        {denuncia.tipo}{denuncia.ciudad ? ` — ${denuncia.ciudad}` : ""}
+                      </Popup>
+                    </Marker>
+                  </MapContainer>
+                ) : (
+                  <div className="h-48 w-full flex items-center justify-center bg-slate-100 text-slate-500">
+                    Sin coordenadas
+                  </div>
+                )}
+              </div>
+
+              <div className="rounded-xl overflow-hidden border border-slate-200 min-h-48 flex items-center justify-center bg-slate-50">
+                {fotoUrl ? (
+                  <img src={fotoUrl} alt="Evidencia" className="w-full h-48 object-cover" loading="lazy" />
+                ) : (
+                  <div className="flex items-center gap-2 text-slate-500">
+                    <ImageIcon className="h-5 w-5" /> Sin foto adjunta
+                  </div>
                 )}
               </div>
             </div>
+          </div>
+
+          <div className="flex justify-left text-green-500 mt-4">
+            <button
+              onClick={() => navigate(`/categorias/${slug}`)} // Regresa a la lista de denuncias para la categoría
+              
+            >
+              Volver a la lista de denuncias
+            </button>
           </div>
         </section>
       </article>
     </main>
   );
-}
-        
+}      
 
 
 
