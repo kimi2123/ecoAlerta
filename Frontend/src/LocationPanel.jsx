@@ -106,7 +106,7 @@ const LocationPanel = ({ value, onChange }) => {
         </div>
         <div className="col-span-2">
           <label className="block text-xs text-gray-600 mb-1">
-            Ciudad {mode === "manual" && <span className="text-red-600">*</span>}
+            Ciudad {mode === "manual" }
           </label>
           <input
             type="text"
@@ -122,7 +122,7 @@ const LocationPanel = ({ value, onChange }) => {
           <label className="block text-xs text-gray-600 mb-1">Dirección</label>
           <input
             type="text"
-            placeholder="Calle, referencia…"
+            placeholder="Calle, referencia…(No obligatoria)"
             className="w-full border rounded-xl px-3 py-2 text-black placeholder:text-slate-400
              focus:ring-5 focus:ring-emerald-500 focus:border-emerald-500 transition"
             value={value.direccion}
@@ -147,7 +147,7 @@ const LocationPanel = ({ value, onChange }) => {
         </div>
       ) : (
         <div className="text-sm text-gray-600 bg-gray-50 border rounded p-3">
-          Modo manual: completa ciudad (obligatoria), latitud y longitud. El mapa está oculto.
+          Modo manual: completa ciudad , latitud y longitud. El mapa está oculto.
         </div>
       )}
     </div>
