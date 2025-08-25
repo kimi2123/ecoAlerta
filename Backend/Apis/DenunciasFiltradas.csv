@@ -1942,3 +1942,25 @@ id,tipo,descripcion,lat,lng,foto,fecha,ciudad
 1941,"Minería ilegal","Saqueo ilegal de materiales ",-3.6951777927981,-79.609905452487,imagenes/den_68a900d4e566c8.90705574.jpg,2025-08-22T05:00:00.000Z,Zaruma
 1942,"Minería ilegal","Derrumbe en una mina ilegal",0.95932796265,-79.628711620084,imagenes/den_68a901e3bc6a23.01482198.webp,2025-03-14T05:00:00.000Z,Esmeraldas
 1943,"Minería ilegal","Socavón provocado por la minería ilegal",-3.6918959289363,-79.609207711164,imagenes/den_68a90262b4a486.98941540.jpg,2024-07-12T05:00:00.000Z,Zaruma
+1944,Contaminación,"Derrame petrolero en la zona costera de Machala EL Oro.",-3.4015650910828,-79.945254545848,imagenes/den_68a8fcbca2c4a5.01431364.webp,2025-08-07T05:00:00.000Z,Machala
+1945,Contaminación,"Derrame petrolero en la zona costera de guayaquil provocado por empresa corrupta.",-2.1787722936428,-79.88489775472,imagenes/den_68a8fd112b48a4.75354705.webp,2025-08-07T05:00:00.000Z,Guayaquil
+1946,Contaminación,"Fundas de basura abandonadas en la calle",-2.2712421011311,-79.883296629243,imagenes/den_68a90300bdf285.57667686.jpeg,2025-08-12T05:00:00.000Z,Guayaquil
+1947,Contaminación,"Derrame petrolero en la zona costera de Machala EL Oro.",-3.4015650910828,-79.945254545848,imagenes/den_68a8fcbca2c4a5.01431364.webp,2025-08-07T05:00:00.000Z,Machala
+1948,Contaminación,"Derrame petrolero en la zona costera de guayaquil provocado por empresa corrupta.",-2.1787722936428,-79.88489775472,imagenes/den_68a8fd112b48a4.75354705.webp,2025-08-07T05:00:00.000Z,Guayaquil
+1949,Contaminación,"Fundas de basura abandonadas en la calle",-2.2712421011311,-79.883296629243,imagenes/den_68a90300bdf285.57667686.jpeg,2025-08-12T05:00:00.000Z,Guayaquil
+1950,"Vida silvestre","Caza furtiva ilegal en Iquitos, se detuvo presuntas cargas de monos de contrabando.",-3.7518911433903,-73.265549192811,imagenes/den_68a8fde25ef4b0.91602527.webp,2010-05-14T05:00:00.000Z,Iquitos
+1951,"Vida silvestre","Caza furtiva de animales en peligro de extinción.",-0.48664520930173,15.899949824603,imagenes/den_68a8fe352156f8.95816582.jpg,2000-05-17T05:00:00.000Z,Congo
+1952,"Vida silvestre","Trafico ilegal de aves enjauladas",-0.32727768131821,-78.4487271535,imagenes/den_68a9054e5f4b17.90733735.webp,2025-05-22T05:00:00.000Z,Sangolqui
+1953,"Vida silvestre","Caza furtiva ilegal en Iquitos, se detuvo presuntas cargas de monos de contrabando.",-3.7518911433903,-73.265549192811,imagenes/den_68a8fde25ef4b0.91602527.webp,2010-05-14T05:00:00.000Z,Iquitos
+1954,"Vida silvestre","Caza furtiva de animales en peligro de extinción.",-0.48664520930173,15.899949824603,imagenes/den_68a8fe352156f8.95816582.jpg,2000-05-17T05:00:00.000Z,Congo
+1955,"Vida silvestre","Trafico ilegal de aves enjauladas",-0.32727768131821,-78.4487271535,imagenes/den_68a9054e5f4b17.90733735.webp,2025-05-22T05:00:00.000Z,Sangolqui
+1956,"Vida silvestre","Caza furtiva de animales en peligro de extinción.",-0.48664520930173,15.899949824603,imagenes/den_68a8fe352156f8.95816582.jpg,2000-05-17T05:00:00.000Z,Congo
+1957,"Vida silvestre","Caza furtiva ilegal en Iquitos, se detuvo presuntas cargas de monos de contrabando.",-3.7518911433903,-73.265549192811,imagenes/den_68a8fde25ef4b0.91602527.webp,2010-05-14T05:00:00.000Z,Iquitos
+1958,"Vida silvestre","Caza furtiva de animales en peligro de extinción.",-0.48664520930173,15.899949824603,imagenes/den_68a8fe352156f8.95816582.jpg,2000-05-17T05:00:00.000Z,Congo
+1959,"Vida silvestre","Trafico ilegal de aves enjauladas",-0.32727768131821,-78.4487271535,imagenes/den_68a9054e5f4b17.90733735.webp,2025-05-22T05:00:00.000Z,Sangolqui
+1960,"Minería ilegal","Saqueo ilegal de materiales ",-3.6951777927981,-79.609905452487,imagenes/den_68a900d4e566c8.90705574.jpg,2025-08-22T05:00:00.000Z,Zaruma
+1961,"Minería ilegal","Derrumbe en una mina ilegal",0.95932796265,-79.628711620084,imagenes/den_68a901e3bc6a23.01482198.webp,2025-03-14T05:00:00.000Z,Esmeraldas
+1962,"Minería ilegal","Socavón provocado por la minería ilegal",-3.6918959289363,-79.609207711164,imagenes/den_68a90262b4a486.98941540.jpg,2024-07-12T05:00:00.000Z,Zaruma
+1963,"Minería ilegal","Saqueo ilegal de materiales ",-3.6951777927981,-79.609905452487,imagenes/den_68a900d4e566c8.90705574.jpg,2025-08-22T05:00:00.000Z,Zaruma
+1964,"Minería ilegal","Derrumbe en una mina ilegal",0.95932796265,-79.628711620084,imagenes/den_68a901e3bc6a23.01482198.webp,2025-03-14T05:00:00.000Z,Esmeraldas
+1965,"Minería ilegal","Socavón provocado por la minería ilegal",-3.6918959289363,-79.609207711164,imagenes/den_68a90262b4a486.98941540.jpg,2024-07-12T05:00:00.000Z,Zaruma
