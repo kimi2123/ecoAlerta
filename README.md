@@ -48,9 +48,13 @@ Luego, inicia el servidor de desarrollo:
 
     npm run dev
 
-
 🌐 Acceso a la Aplicación
 
 Una vez ambos servidores estén corriendo:
 
     http://localhost:5173
+
+**Autores:**
+- Freddy Asanza 
+- Erick Armijos 
+- Luis Romero 
